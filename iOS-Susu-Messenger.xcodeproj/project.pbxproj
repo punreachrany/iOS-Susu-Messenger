@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E0749527257D28D3002E2462 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0749526257D28D3002E2462 /* GoogleService-Info.plist */; };
 		E0A269C3257BB79B0009931E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A269C2257BB79B0009931E /* AppDelegate.swift */; };
 		E0A269C5257BB79B0009931E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A269C4257BB79B0009931E /* SceneDelegate.swift */; };
 		E0A269C7257BB79B0009931E /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A269C6257BB79B0009931E /* ConversationsViewController.swift */; };
 		E0A269CA257BB79B0009931E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A269C8257BB79B0009931E /* Main.storyboard */; };
 		E0A269CC257BB79C0009931E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A269CB257BB79C0009931E /* Assets.xcassets */; };
 		E0A269CF257BB79C0009931E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A269CD257BB79C0009931E /* LaunchScreen.storyboard */; };
+		E0A471AC257D4C2300D6AC18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0A471AB257D4C2300D6AC18 /* GoogleService-Info.plist */; };
 		E0B6AAA3257BBB59005EF072 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6AAA2257BBB59005EF072 /* LoginViewController.swift */; };
 		E0B6AAA6257BBB6E005EF072 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6AAA5257BBB6E005EF072 /* RegisterViewController.swift */; };
 		E0B6AAAA257BBB89005EF072 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6AAA9257BBB89005EF072 /* PhotoViewerViewController.swift */; };
@@ -28,7 +28,6 @@
 		219A8E825EBBA8CE7ED433E1 /* Pods-iOS-Susu-Messenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Susu-Messenger.debug.xcconfig"; path = "Target Support Files/Pods-iOS-Susu-Messenger/Pods-iOS-Susu-Messenger.debug.xcconfig"; sourceTree = "<group>"; };
 		4C7CD5031E40420F06CDC816 /* Pods-iOS-Susu-Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Susu-Messenger.release.xcconfig"; path = "Target Support Files/Pods-iOS-Susu-Messenger/Pods-iOS-Susu-Messenger.release.xcconfig"; sourceTree = "<group>"; };
 		4F13C8DF271D0F413DAF4560 /* Pods_iOS_Susu_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Susu_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0749526257D28D3002E2462 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E0A269BF257BB79B0009931E /* iOS-Susu-Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Susu-Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A269C2257BB79B0009931E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0A269C4257BB79B0009931E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +36,7 @@
 		E0A269CB257BB79C0009931E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0A269CE257BB79C0009931E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0A269D0257BB79C0009931E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A471AB257D4C2300D6AC18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E0B6AAA2257BBB59005EF072 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E0B6AAA5257BBB6E005EF072 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E0B6AAA9257BBB89005EF072 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 				E0B6AA95257BB979005EF072 /* Views */,
 				E0B6AA94257BB972005EF072 /* Controllers */,
 				E0A269D0257BB79C0009931E /* Info.plist */,
-				E0749526257D28D3002E2462 /* GoogleService-Info.plist */,
+				E0A471AB257D4C2300D6AC18 /* GoogleService-Info.plist */,
 			);
 			path = "iOS-Susu-Messenger";
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0749527257D28D3002E2462 /* GoogleService-Info.plist in Resources */,
+				E0A471AC257D4C2300D6AC18 /* GoogleService-Info.plist in Resources */,
 				E0A269CF257BB79C0009931E /* LaunchScreen.storyboard in Resources */,
 				E0A269CC257BB79C0009931E /* Assets.xcassets in Resources */,
 				E0A269CA257BB79B0009931E /* Main.storyboard in Resources */,
