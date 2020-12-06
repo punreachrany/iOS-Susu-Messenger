@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0749527257D28D3002E2462 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0749526257D28D3002E2462 /* GoogleService-Info.plist */; };
 		E0A269C3257BB79B0009931E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A269C2257BB79B0009931E /* AppDelegate.swift */; };
 		E0A269C5257BB79B0009931E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A269C4257BB79B0009931E /* SceneDelegate.swift */; };
 		E0A269C7257BB79B0009931E /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A269C6257BB79B0009931E /* ConversationsViewController.swift */; };
@@ -20,9 +21,14 @@
 		E0B6AAB1257BBBB4005EF072 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6AAB0257BBBB4005EF072 /* NewConversationViewController.swift */; };
 		E0B6AAB5257BBBCB005EF072 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6AAB4257BBBCB005EF072 /* ProfileViewController.swift */; };
 		E0B6AABB257BC316005EF072 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6AABA257BC316005EF072 /* Extension.swift */; };
+		F69653F2559B06722C143F92 /* Pods_iOS_Susu_Messenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F13C8DF271D0F413DAF4560 /* Pods_iOS_Susu_Messenger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		219A8E825EBBA8CE7ED433E1 /* Pods-iOS-Susu-Messenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Susu-Messenger.debug.xcconfig"; path = "Target Support Files/Pods-iOS-Susu-Messenger/Pods-iOS-Susu-Messenger.debug.xcconfig"; sourceTree = "<group>"; };
+		4C7CD5031E40420F06CDC816 /* Pods-iOS-Susu-Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Susu-Messenger.release.xcconfig"; path = "Target Support Files/Pods-iOS-Susu-Messenger/Pods-iOS-Susu-Messenger.release.xcconfig"; sourceTree = "<group>"; };
+		4F13C8DF271D0F413DAF4560 /* Pods_iOS_Susu_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Susu_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0749526257D28D3002E2462 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E0A269BF257BB79B0009931E /* iOS-Susu-Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Susu-Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A269C2257BB79B0009931E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0A269C4257BB79B0009931E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69653F2559B06722C143F92 /* Pods_iOS_Susu_Messenger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FDBCE9A7743CAE48FCCC3F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F13C8DF271D0F413DAF4560 /* Pods_iOS_Susu_Messenger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B7F483E2B8DF952F7B792A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				219A8E825EBBA8CE7ED433E1 /* Pods-iOS-Susu-Messenger.debug.xcconfig */,
+				4C7CD5031E40420F06CDC816 /* Pods-iOS-Susu-Messenger.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E0A269B6257BB79B0009931E = {
 			isa = PBXGroup;
 			children = (
 				E0A269C1257BB79B0009931E /* iOS-Susu-Messenger */,
 				E0A269C0257BB79B0009931E /* Products */,
+				9B7F483E2B8DF952F7B792A0 /* Pods */,
+				8FDBCE9A7743CAE48FCCC3F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +102,7 @@
 				E0B6AA95257BB979005EF072 /* Views */,
 				E0B6AA94257BB972005EF072 /* Controllers */,
 				E0A269D0257BB79C0009931E /* Info.plist */,
+				E0749526257D28D3002E2462 /* GoogleService-Info.plist */,
 			);
 			path = "iOS-Susu-Messenger";
 			sourceTree = "<group>";
@@ -151,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0A269D3257BB79C0009931E /* Build configuration list for PBXNativeTarget "iOS-Susu-Messenger" */;
 			buildPhases = (
+				0955994B5688EB4EEACC00DA /* [CP] Check Pods Manifest.lock */,
 				E0A269BB257BB79B0009931E /* Sources */,
 				E0A269BC257BB79B0009931E /* Frameworks */,
 				E0A269BD257BB79B0009931E /* Resources */,
+				3369D9A1A5CE91143CE608B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0749527257D28D3002E2462 /* GoogleService-Info.plist in Resources */,
 				E0A269CF257BB79C0009931E /* LaunchScreen.storyboard in Resources */,
 				E0A269CC257BB79C0009931E /* Assets.xcassets in Resources */,
 				E0A269CA257BB79B0009931E /* Main.storyboard in Resources */,
@@ -208,6 +238,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0955994B5688EB4EEACC00DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-Susu-Messenger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3369D9A1A5CE91143CE608B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-Susu-Messenger/Pods-iOS-Susu-Messenger-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-Susu-Messenger/Pods-iOS-Susu-Messenger-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-Susu-Messenger/Pods-iOS-Susu-Messenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0A269BB257BB79B0009931E /* Sources */ = {
@@ -367,6 +439,7 @@
 		};
 		E0A269D4257BB79C0009931E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219A8E825EBBA8CE7ED433E1 /* Pods-iOS-Susu-Messenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -387,6 +460,7 @@
 		};
 		E0A269D5257BB79C0009931E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7CD5031E40420F06CDC816 /* Pods-iOS-Susu-Messenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

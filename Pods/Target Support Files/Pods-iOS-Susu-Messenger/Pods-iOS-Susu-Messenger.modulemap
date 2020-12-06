@@ -1,0 +1,6 @@
+framework module Pods_iOS_Susu_Messenger {
+  umbrella header "Pods-iOS-Susu-Messenger-umbrella.h"
+
+  export *
+  module * { export * }
+}

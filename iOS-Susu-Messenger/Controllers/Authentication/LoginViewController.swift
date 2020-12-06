@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
     
@@ -67,7 +68,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Login In"
+        title = "Login"
         view.backgroundColor = UIColor.white
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Register", style: .done, target: self, action: #selector(didTapRegister))
@@ -121,6 +122,15 @@ class LoginViewController: UIViewController {
         }
         
         // Firebase Login
+        FirebaseAuth.Auth.auth().signIn(withEmail: email, password: password, completion: {authResult, error in
+            guard let result = authResult, error == nil else {
+                print("Fail to Login")
+                return
+            }
+            
+            let user = result.user
+            print("Signed In User: \(user)")
+        })
     }
     
     func alertUserLoginError()  {
