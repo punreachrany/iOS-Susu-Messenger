@@ -21,6 +21,7 @@
 		E0B6AAB1257BBBB4005EF072 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6AAB0257BBBB4005EF072 /* NewConversationViewController.swift */; };
 		E0B6AAB5257BBBCB005EF072 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6AAB4257BBBCB005EF072 /* ProfileViewController.swift */; };
 		E0B6AABB257BC316005EF072 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6AABA257BC316005EF072 /* Extension.swift */; };
+		E0BD78FE2593403E00A7B94E /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BD78FD2593403E00A7B94E /* DatabaseManager.swift */; };
 		F69653F2559B06722C143F92 /* Pods_iOS_Susu_Messenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F13C8DF271D0F413DAF4560 /* Pods_iOS_Susu_Messenger.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		E0B6AAB0257BBBB4005EF072 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		E0B6AAB4257BBBCB005EF072 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E0B6AABA257BC316005EF072 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E0BD78FD2593403E00A7B94E /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				E0A269C2257BB79B0009931E /* AppDelegate.swift */,
 				E0A269C4257BB79B0009931E /* SceneDelegate.swift */,
 				E0B6AABA257BC316005EF072 /* Extension.swift */,
+				E0BD78FD2593403E00A7B94E /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0B6AAA3257BBB59005EF072 /* LoginViewController.swift in Sources */,
+				E0BD78FE2593403E00A7B94E /* DatabaseManager.swift in Sources */,
 				E0B6AAA6257BBB6E005EF072 /* RegisterViewController.swift in Sources */,
 				E0B6AAB1257BBBB4005EF072 /* NewConversationViewController.swift in Sources */,
 				E0A269C7257BB79B0009931E /* ConversationsViewController.swift in Sources */,
